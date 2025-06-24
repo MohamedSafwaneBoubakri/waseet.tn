@@ -1,0 +1,51 @@
+css_code = '''
+body {
+  font-family: 'Tahoma', sans-serif;
+  background-color: #f4f4f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #0c4a6e;
+  margin-bottom: 10px;
+}
+
+ul, ol {
+  padding-right: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #0c4a6e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
